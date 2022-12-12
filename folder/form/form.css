@@ -1,0 +1,104 @@
+/* sets the grid */
+.container{
+    display: grid;
+    border: 5px black;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6,auto);
+    
+    grid-template-areas: 
+    "header header header header"
+
+    "footer footer footer footer"
+    ;
+
+}
+
+.orderform{
+    background-color: white;
+    
+}
+
+
+html{
+    background-color: #96578A;
+    
+}
+/* all stuff for the navbar */
+#logo > a > img{
+    width: 350px;
+    height: 118px;
+    max-width: 100%;
+}
+#searchbar{
+    margin: auto;
+}
+#searchbar > form > fieldset{
+    border: none;
+}
+#search{
+    width: 600px;
+}
+#menu{
+    margin: auto;
+}
+#menu>a:hover{
+    color: white;
+}
+#gallery{
+    margin: auto;
+}
+#gallery>a:hover{
+    color: white;
+}
+#order{
+    margin: auto;
+}
+#order>a:hover{
+    color: white;
+}
+.links {
+    text-decoration: none;
+    color: #BCE2B1;
+    font-size: xx-large;
+}
+#main{
+    grid-area: main;
+    background-color: white;
+}
+#footer{
+    grid-area: footer;
+    margin:auto;
+}
+#statement{
+    color: black;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: #BCE2B1;
+    
+}
+#hr{
+    margin: auto;
+    max-width: 34%;
+    background-color: #BCE2B1;
+}
+#fimg{
+    width: 175px;
+    height: 5900px;
+}
+/* makes sure the navbar is sticky and looks nice */
+.navbar{
+    display: flex;
+    background-color: #96578A;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+}
+/* makes sure this looks good on mobile */
+@media screen and (max-width: 475px) {
+    #search {
+        width: 300px;
+    }
+}

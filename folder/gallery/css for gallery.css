@@ -1,0 +1,186 @@
+/* sets the grid */
+.container{
+    display: grid;
+    border: 5px black;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,auto);
+    gap: 5px 10px;
+    grid-template-areas: 
+    "header header header header"
+    
+    "spred rav rat zucc"
+    "pizza las can chee"
+    "video video video video "
+    "footer footer footer footer"
+    ;
+
+}
+/* makes it look good on mobile */
+@media screen and (max-width: 475px){
+    .container{
+    display: grid;
+    
+    background-color: white;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(6,auto);
+    
+    grid-template-areas: 
+    "header header"
+    
+    "spred rav"
+    "rat zucc"
+    "pizza las"
+    "can chee"
+    " video video  "
+    "footer footer"
+    ;
+    }
+}
+
+/* image hieght and width css */
+.video{
+    grid-area: video;
+    max-width: 100%;
+}
+
+.chee{
+    grid-area: chee;
+    max-width:100%;
+    border: 5px #96578A
+}
+.zucc{
+    grid-area: zucc;
+     
+    border: 5px black;
+    max-width:100%;
+}
+.logo{
+    grid-area: logo;
+}
+.logo > img{
+    height: 4cm;
+    width: 12cm;
+    max-width:100%;
+}
+.spred{
+    grid-area: spred;
+     
+    border: 5px black;
+    max-width:100%;
+}
+.rav{
+    grid-area: rav;
+     
+    border: 5px black;
+    max-width:100%;
+}
+.rat{
+    grid-area: rat;
+     
+    border: 5px black;
+    max-width:100%;
+}
+.pizza{
+    grid-area: pizza;
+     
+    border: 5px black;
+    max-width:100%;
+}
+.las{
+    grid-area: las;
+     
+    border: 5px black;
+    max-width:100%;
+}
+.can{
+    grid-area: can;
+    border: 5px black;
+    max-width:100%;
+}
+.footer{
+    grid-area: footer;
+}
+.header{
+    grid-area: header;
+}
+
+/* navbar element definition */
+html{
+    background-color: #96578A;
+}
+#logo > a > img{
+    width: 350px;
+    height: 118px;
+    max-width: 100%;
+}
+#searchbar{
+    margin: auto;
+}
+#searchbar > form > fieldset{
+    border: none;
+}
+#search{
+    width: 600px;
+}
+#menu{
+    margin: auto;
+}
+#menu>a:hover{
+    color: white;
+}
+#gallery{
+    margin: auto;
+}
+#gallery>a:hover{
+    color: white;
+}
+#order{
+    margin: auto;
+}
+#order>a:hover{
+    color: white;
+}
+.links {
+    text-decoration: none;
+    color: #BCE2B1;
+    font-size: xx-large;
+}
+#main{
+    grid-area: main;
+    background-color: white;
+}
+#footer{
+    grid-area: footer;
+    margin:auto;
+}
+#statement{
+    color: black;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: #BCE2B1;
+}
+#hr{
+    margin: auto;
+    max-width: 34%;
+    background-color: #BCE2B1;
+}
+#fimg{
+    width: 175px;
+    height: 5900px;
+}
+
+.navbar{
+    display: flex;
+    background-color: #96578A;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 475px) {
+    #search {
+        width: 400px;
+    }
+}

@@ -1,0 +1,97 @@
+html{
+    background-color: #96578A;
+}
+/* Resizes the image */
+#logo > a > img{
+    width: 350px;
+    height: 118px;
+    max-width: 100%;
+}
+#searchbar{
+    margin: auto;
+}
+#searchbar > form > fieldset{
+    border: none;
+}
+#search{
+    width: 600px;
+}
+#menu{
+    margin: auto;
+}
+#menu>a:hover{
+    color: white;
+}
+#gallery{
+    margin: auto;
+}
+#gallery>a:hover{
+    color: white;
+}
+#order{
+    margin: auto;
+}
+#order>a:hover{
+    color: white;
+}
+.links {
+    text-decoration: none;
+    color: #BCE2B1;
+    font-size: xx-large;
+}
+#main{
+    grid-area: main;
+    background-color: white;
+}
+#footer{
+    grid-area: footer;
+    margin:auto;
+}
+#statement{
+    color: black;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: #BCE2B1;
+}
+#hr{
+    margin: auto;
+    width: 100%;
+    background-color: #BCE2B1;
+}
+#fimg{
+    width: 175px;
+    height: 5900px;
+}
+/* This defines the grid */
+.container{
+    margin: 0px;
+    background-color: #96578A;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "main main main main main main"
+    "footer footer footer footer footer footer"
+    ;
+}
+#comment{
+    border: none;
+}
+.navbar{ 
+    display: flex;
+    background-color: #96578A;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+}
+#blogo{
+    max-width: 100%;
+}
+/* This makes sure the search bar changes on different screens */
+@media screen and (max-width: 475px) {
+    #search {
+            width: 400px;
+        }
+}

@@ -1,0 +1,117 @@
+/* navbar */
+html {
+    background-color: #96578A;
+}
+
+#logo>a>img {
+    width: 350px;
+    height: 118px;
+    max-width: 100%;
+}
+
+#searchbar {
+    margin: auto;
+}
+
+#searchbar>form>fieldset {
+    border: none;
+}
+
+#search {
+    width: 600px;
+    
+}
+
+#menu {
+    margin: auto;
+}
+
+#menu>a:hover {
+    color: white;
+}
+
+#gallery {
+    margin: auto;
+}
+
+#gallery>a:hover {
+    color: white;
+}
+
+#order {
+    margin: auto;
+}
+
+#order>a:hover {
+    color: white;
+}
+
+.links {
+    text-decoration: none;
+    color: #BCE2B1;
+    font-size: xx-large;
+}
+
+#main {
+    grid-area: main;
+    background-color: white;
+}
+
+#foot {
+    grid-area: foot;
+    margin: auto;
+}
+#foot > p {
+    color: #BCE2B1;
+}
+
+p {
+    text-align: center;
+}
+
+#hr {
+    margin: auto;
+    width: 100%;
+    background-color: #BCE2B1;
+}
+/* makes the grid */
+.container {
+    margin: 0px;
+    background-color: #96578A;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "main main main main main main"
+        "foot foot foot foot foot foot"
+    ;
+}
+/* makes the navbar look good */
+.navbar {
+    display: flex;
+    background-color: #96578A;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+table.a {
+    table-layout: auto;
+    width:fit-content;  
+}
+.a > tr > th,td{
+    text-align: center;
+}
+/* makes the content responsive to screen size */
+
+@media screen and (max-width: 475px) {
+    #search {
+        width: 300px;
+    }
+}
