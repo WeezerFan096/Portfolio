@@ -1,5 +1,12 @@
+@font-face { font-family: Nickainly; src: url('./index images/Nickainley-Normal.otf') format('opentype'); } 
 html{
-    background-color: grey;
+    background-color: black;
+}
+.welcomeText{
+    color:#cca2e4;
+    text-shadow: 0 0 5px #d2b2e4;
+    font-size: 1.5cm;
+    font-family: Nickainly;
 }
 /* Resizes the image */
 #logo > a > img{
@@ -10,7 +17,7 @@ html{
 #lineImage{
     margin: auto;
 }
-#lineImage > form > fieldset{
+#lineImage > contact > fieldset{
     border: none;
 }
 #search{
@@ -25,26 +32,32 @@ html{
 }
 #menu{
     margin: auto;
+    color: #cca2e4
 }
 #menu>a:hover{
-    color: white;
+    color: #bea9ca;
 }
-#gallery{
+#aboutMe{
     margin: auto;
+    color: #cca2e4
 }
-#gallery>a:hover{
-    color: white;
+#aboutMe>a:hover{
+    color: #bea9ca;
 }
-#order{
+#contact{
     margin: auto;
+    color: #cca2e4
 }
-#order>a:hover{
-    color: white;
+#contact>a:hover{
+    color: #bea9ca;
 }
 .links {
     text-decoration: none;
     font-size: xx-large;
+    color: #cca2e4;
+    font-family: Nickainly;
 }
+
 #main{
     grid-area: main;
     background-color: white;
@@ -55,7 +68,7 @@ html{
     text-align: center;
 }
 #statement{
-    color: grey;
+    color: black;
     font-size: 40px;
 }
 p{
@@ -65,7 +78,7 @@ p{
 #hr{
     margin: auto;
     width: 100%;
-    background-color: #bea9ca;
+    background-color: #ca77fa;
 }
 #fimg{
     width: 175px;
@@ -74,7 +87,7 @@ p{
 /* This defines the grid */
 .container{
     margin: 0px;
-    background-color: grey;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -88,7 +101,7 @@ p{
 }
 .navbar{ 
     display: flex;
-    background-color: grey;
+    background-color: black;
     position: sticky;
     top: 0px;
     flex-wrap: wrap;
