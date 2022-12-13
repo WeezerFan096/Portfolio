@@ -4,9 +4,10 @@ html{
 }
 .welcomeText{
     color:#cca2e4;
-    text-shadow: 0 0 5px #d2b2e4;
+    text-shadow: 0 0 10px #d2b2e4;
     font-size: 1.5cm;
     font-family: Nickainly;
+    text-align: left;
 }
 /* Resizes the image */
 #logo > a > img{
@@ -56,6 +57,7 @@ html{
     font-size: xx-large;
     color: #cca2e4;
     font-family: Nickainly;
+
 }
 
 #main{
@@ -105,6 +107,7 @@ p{
     position: sticky;
     top: 0px;
     flex-wrap: wrap;
+    font-family: Nickainly;
 }
 #blogo{
     max-width: 100%;
