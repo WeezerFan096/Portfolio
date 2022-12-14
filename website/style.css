@@ -9,6 +9,14 @@ html{
     font-family: Nickainly;
     text-align: center;
 }
+#allMyProjects{
+    color:#cca2e4;
+    text-shadow: 0 0 5px #d2b2e4;
+    font-size: 1cm;
+    font-family: Nickainly;
+    text-align: center;
+}
+
 /* Resizes the image */
 #logo > a > img{
     width: 350px;
