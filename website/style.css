@@ -1,4 +1,4 @@
-@font-face { font-family: Nickainly; src: url('./index images/Nickainley-Normal.otf') format('opentype'); } 
+@font-face { font-family: Nickainly; src: url('./Nickainley.otf') format('opentype'); } 
 html{
     background-color: black;
 }
@@ -7,7 +7,7 @@ html{
     text-shadow: 0 0 10px #d2b2e4;
     font-size: 1.5cm;
     font-family: Nickainly;
-    text-align: left;
+    text-align: center;
 }
 /* Resizes the image */
 #logo > a > img{
@@ -54,9 +54,10 @@ html{
 }
 .links {
     text-decoration: none;
-    font-size: xx-large;
+    font-size: 50px;
     color: #cca2e4;
     font-family: Nickainly;
+    text-shadow: 0 0 10px #d2b2e4;
 
 }
 
@@ -95,7 +96,9 @@ p{
     grid-template-rows: auto;
     grid-template-areas: 
     "main main main "
-    "footer footer footer footer footer footer"
+    "blackBox1 line1 blackBox2"
+    "food1 uncan1 rock1"
+    "footer" 
     ;
 }
 #comment{
@@ -118,3 +121,5 @@ p{
             width: 400px;
         }
 }
+
+
