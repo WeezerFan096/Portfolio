@@ -15,6 +15,32 @@ html{
     font-size: 1cm;
     font-family: Nickainly;
     text-align: center;
+    text-decoration: none;
+    
+}
+.face{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.linkGithub:hover {
+    color: #FFD700;
+  }
+
+.linkGithub{
+    color:#cca2e4;
+    text-shadow: 0 0 10px #d2b2e4;
+    font-size: 1.5cm;
+    font-family: Nickainly;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.bodyText{
+    color:#cca2e4;
+    font-size: larger;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Resizes the image */
@@ -68,19 +94,14 @@ html{
     text-shadow: 0 0 10px #d2b2e4;
 
 }
+.links:hover {
+    color: #FFD700;
+  }
 
-#main{
-    grid-area: main;
-    background-color: white;
-}
 #footer{
     grid-area: footer;
     margin:auto;
     text-align: center;
-}
-#statement{
-    color: black;
-    font-size: 40px;
 }
 p{
     text-align: center;
