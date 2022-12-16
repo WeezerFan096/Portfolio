@@ -18,6 +18,19 @@ html{
     text-decoration: none;
     
 }
+.blackBox{
+    height: 30px;
+    width: 1065px;
+    outline: white;
+}
+.vsCodeLogo{
+    height: 70%;
+    width: 70%;
+}
+.lines{
+    height: 200px;
+    width: 200px;
+}
 .face{
     border-radius: 50%;
     height: 400px;
@@ -42,7 +55,14 @@ html{
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.bodyTextTwo{
+    color:#cca2e4;
+    font-size: larger;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
 
+}
 /* Resizes the image */
 #logo > a > img{
     width: 350px;
@@ -96,8 +116,10 @@ html{
 }
 .links:hover {
     color: #FFD700;
-  }
-
+}
+.bodyTextTwo:hover {
+    color: #FFD700;
+}
 #footer{
     grid-area: footer;
     margin:auto;
