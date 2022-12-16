@@ -168,9 +168,42 @@ p{
 }
 /* This makes sure the search bar changes on different screens */
 @media screen and (max-width: 475px) {
+    .links {
+        text-decoration: none;
+        font-size: 25px;
+        color: #cca2e4;
+        font-family: Nickainly;
+        text-shadow: 0 0 10px #d2b2e4;
+    
+    }
     #search {
             width: 400px;
         }
+    .bodyText{
+        color:#cca2e4;
+        font-size: small;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .welcomeText{
+        color:#cca2e4;
+        text-shadow: 0 0 10px #d2b2e4;
+        font-size: 25px;
+        font-family: Nickainly;
+        text-align: center;
+    }
+    .blackBox{
+        display: none;
+    }
+    .dumbAsRocks{
+        display: none;
+    }
+    .ti{
+        display: none;
+    }
+    .FIFOne{
+        display: none;
+    }
 }
 
 
