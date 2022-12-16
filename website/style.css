@@ -19,9 +19,9 @@ html{
     
 }
 .blackBox{
-    height: 30px;
+    /* height: 30px;
     width: 1065px;
-    outline: white;
+    outline: white; */
 }
 .vsCodeLogo{
     height: 70%;
@@ -203,6 +203,20 @@ p{
     }
     .FIFOne{
         display: none;
+    }
+    .blackBoxAlpha{
+        display: none;
+    }
+    .lines{
+        display: none;
+    }
+    .vsCodeLogo{
+        width: 400px;
+        height: 400px;
+    }
+    .face{
+        width: 300px;
+        height: 300px; 
     }
 }
 
