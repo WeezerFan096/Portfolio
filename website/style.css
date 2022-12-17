@@ -2,6 +2,21 @@
 html{
     background-color: black;
 }
+.goAway{
+   display: none; 
+}
+.dumbAsRocks{
+    height: 400px;
+    width: 500px;
+}
+.ti{
+    height: 400px;
+    width: 500px;
+}
+.FIFOne{
+    height: 400px;
+    width: 500px;
+}
 .welcomeText{
     color:#cca2e4;
     text-shadow: 0 0 10px #d2b2e4;
@@ -19,9 +34,9 @@ html{
     
 }
 .blackBox{
-    /* height: 30px;
+    height: 30px;
     width: 1065px;
-    outline: white; */
+    outline: white;
 }
 .vsCodeLogo{
     height: 70%;
@@ -62,6 +77,10 @@ html{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
 
+}
+.blackBoxA{
+    width: 500px;
+    height: 100px;
 }
 /* Resizes the image */
 #logo > a > img{
@@ -185,10 +204,17 @@ p{
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    .goAway{
+        color:#cca2e4;
+        text-shadow: 0 0 10px #d2b2e4;
+        font-size: 35px;
+        font-family: Nickainly;
+        text-align: center;
+    }
     .welcomeText{
         color:#cca2e4;
         text-shadow: 0 0 10px #d2b2e4;
-        font-size: 25px;
+        font-size: 35px;
         font-family: Nickainly;
         text-align: center;
     }
@@ -204,7 +230,7 @@ p{
     .FIFOne{
         display: none;
     }
-    .blackBoxAlpha{
+    .blackBoxA{
         display: none;
     }
     .lines{
