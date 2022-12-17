@@ -78,6 +78,14 @@ html{
     text-decoration: none;
 
 }
+.bodyTextThree{
+    color:#cca2e4;
+    font-size: larger;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+
+}
 .blackBoxA{
     width: 500px;
     height: 100px;
@@ -137,6 +145,9 @@ html{
     color: #FFD700;
 }
 .bodyTextTwo:hover {
+    color: #FFD700;
+}
+.bodyTextThree:hover {
     color: #FFD700;
 }
 #footer{
@@ -244,6 +255,11 @@ p{
         width: 300px;
         height: 300px; 
     }
+    .bodyTextTwo{
+        visibility: hidden;
+    
+    }
 }
+
 
 
